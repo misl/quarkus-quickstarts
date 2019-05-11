@@ -5,11 +5,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.native -t quarkus/kafka-quickstart .
+# docker build -f src/main/docker/Dockerfile.native -t quarkus/mqtt-quickstart .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8081:8081 quarkus/kafka-quickstart
+# docker run -i --rm -p 8081:8081 quarkus/mqtt-quickstart
 #
 ###
 FROM registry.fedoraproject.org/fedora-minimal

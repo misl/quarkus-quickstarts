@@ -7,11 +7,11 @@
 #
 # Then, build the image with:
 #
-# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/kafka-quickstart .
+# docker build -f src/main/docker/Dockerfile.jvm -t quarkus/mqtt-quickstart .
 #
 # Then run the container using:
 #
-# docker run -i --rm -p 8080:8080 quarkus/kafka-quickstart
+# docker run -i --rm -p 8080:8080 quarkus/mqtt-quickstart
 #
 ###
 FROM fabric8/java-jboss-openjdk8-jdk
