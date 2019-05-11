@@ -7,7 +7,7 @@ import org.eclipse.microprofile.reactive.messaging.Outgoing;
 import javax.enterprise.context.ApplicationScoped;
 
 /**
- * A bean consuming data from the "prices" Kafka topic and applying some conversion.
+ * A bean consuming data from the "prices" MQTT topic and applying some conversion.
  * The result is pushed to the "my-data-stream" stream which is an in-memory stream.
  */
 @ApplicationScoped
