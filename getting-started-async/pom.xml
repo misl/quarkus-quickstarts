@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.acme</groupId>
-    <artifactId>quarkus-quickstart-async</artifactId>
+    <artifactId>getting-started-async</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <quarkus.version>0.14.0</quarkus.version>
+        <quarkus.version>0.15.0</quarkus.version>
         <surefire-plugin.version>2.22.1</surefire-plugin.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
