@@ -21,6 +21,7 @@ See [CONTRIBUTING](CONTRIBUTING.md) for how to build these examples:
 * [MicroProfile Fault Tolerance](./microprofile-fault-tolerance): How to use MicroProfile Fault Tolerance
 * [MicroProfile Metrics](./microprofile-metrics): How to use MicroProfile Metrics
 * [MicroProfile JWT RBAC](./using-jwt-rbac): How to use MicroProfile JWT RBAC
+* [Keycloak Security](./using-keycloak): How to use [Keycloak](https://www.keycloak.org)
 * [Spring DI compatibility layer](./using-spring-di): How to use our Spring Dependency Injection compatibility layer
 * [Infinispan Client](./infinispan-client): How to use Infinispan Client. Covers creating caches and simple get/put
 * [Using Vert.x](./using-vertx): How to use the Vert.x extension
@@ -32,4 +33,4 @@ There is documentation published at <https://quarkus.io> (docs' [sources are her
 
 * [Maven 3.5.3+](https://maven.apache.org/install.html)
 * [Java - OpenJDK 1.8+](https://adoptopenjdk.net/)
-* [GraalVM rc14+](https://www.graalvm.org/)
+* For the GraalVM requirements, see our [Building native image guide](https://quarkus.io/guides/building-native-image-guide)
